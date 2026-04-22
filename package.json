@@ -1,0 +1,17 @@
+{
+  "name": "mcp-terraform",
+  "version": "1.0.0",
+  "description": "MCP server for Terraform with validate and plan tools",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "keywords": ["mcp", "terraform", "infrastructure"],
+  "author": "ClikaliaTech",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0"
+  }
+}
